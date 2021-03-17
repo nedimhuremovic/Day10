@@ -1,14 +1,14 @@
 // Only change code below this line
-myFood = {
+var myFood = {
   vegetable: "carrot",
   fruit: "orange",
   drink: "water",
 };
 function myFunction(myObj) {
-  noviObj = {
+  var noviObj = {
     vegetableValue: myObj["vegetable"],
     fruitValue: myObj["fruit"],
-    drinkValue: myObj["drink"]
+    drinkValue: myObj["drink"],
   };
   return noviObj;
 }
