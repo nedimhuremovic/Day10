@@ -6,9 +6,9 @@
     }
     function myFunction(myObj) {
         noviObj = {
-        hatValue: myClothes.hat,
-        shirtValue: myClothes.shirt,
-        shoesValue: myClothes.shoes
+        hatValue: myObj.hat,
+        shirtValue: myObj.shirt,
+        shoesValue: myObj.shoes
         }
         return noviObj;
     }
